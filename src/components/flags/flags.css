@@ -1,0 +1,37 @@
+.flagsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 0 30px; */
+}
+.flagsTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.flagsImg {
+  width: 50%;
+}
+
+.flagsContainer {
+  display: flex;
+  width: calc(100% / 6);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.flagsBottom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.flagsName {
+  font-weight: 600;
+  font-size: 15px;
+}
+.flagsDesc {
+  font-size: 15px;
+  font-weight: 600;
+}

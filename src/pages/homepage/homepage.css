@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.homeWrapper {
+  background-color: #91c1b9;
+  margin-top: -80px;
+  padding-top: 100px;
+}
+.homeContainer {
+  display: flex;
+}
